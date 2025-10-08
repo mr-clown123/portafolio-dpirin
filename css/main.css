@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Eater&family=Fontdiner+Swanky&display=swap');
-*{
+
+* {
     margin: auto;
 }
+
 header {
     background: #3b3c34dd;
     text-align: center;
-margin-bottom: 20px;
-border-bottom: solid 8px #000000;
-padding: 50px;
+    margin-bottom: 20px;
+    border-bottom: solid 8px #000000;
+    padding: 50px;
 }
-h1{
+
+h1 {
     font-family: "Fontdiner Swanky", serif;
     font-size: 50px;
 }
-h2{
+
+h2,
+h3 {
     font-family: "Fontdiner Swanky", serif;
 }
 
@@ -26,4 +31,71 @@ p {
     width: 300px;
     border-radius: 20px;
     float: right;
+}
+
+main {
+    overflow: hidden;
+}
+
+section {
+    overflow: hidden;
+}
+
+#proyecto {
+    padding: 20px 30px;
+    border-top: solid 5px #640b0bdd;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.proyecto {
+    float: left;
+
+    width: 33%;
+    margin-top: 20px;
+}
+
+.proyecto img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 10;
+}
+
+.proyecto p {
+    text-align: justify;
+    padding: 10px 20px;
+    color: #b92525;
+}
+
+.proyecto h3 {
+    color: #777777;
+    font-weight: lighter;
+}
+#habilidades{
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: solid 5px #9e1818;
+    margin-bottom: 30px;
+
+}
+progress{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color:#000000
+}
+.lista-tecnologias{
+    list-style: none;
+    display: grid;
+    margin-left: 0;
+    gap:15px;
+}
+.lista-tecnologias li{
+    background-color: #a10a0a;
+    color:#ffffff;
+    padding:12px 20px;
+    border-radius: 25px;
+    text-align: center;
 }
