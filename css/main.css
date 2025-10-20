@@ -149,11 +149,22 @@ progress {
     padding-right: 20px;
 }
 
-.campos input {
+
+.campos input,
+select {
     padding: 10px;
-    border: solid 2px #777777;
+    border: solid 2px #9a57a7;
     width: 50%;
     font-size: 20px;
+    border-radius: 10px;
+}
+
+.campos button {
+    background-color: #777777;
+    color: #000000;
+    border: none;
+    font-size: 18px;
+    padding: 30px 20px;
     border-radius: 10px;
 }
 

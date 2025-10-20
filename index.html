@@ -116,9 +116,50 @@
             <p>platicame de tu proyecto y contactame </p>
             <form>
                 <div class="campos">
-                <label>Nombre completo</label>
-                <input type="text" value="David Pirin" name="nombre" placeholder="Nombre completo" disabled/>
-                <button>Enviar</button>
+                    <label>Nombre completo</label>
+                    <input type="text" value="David Pirin" name="nombre" placeholder="Nombre completo" required />
+                    <button>Enviar</button>
+                </div>
+                <div class="campos">
+                    <label>Email</label>
+                    <input type="email" name="correo_electronico" placeholder="ejemplo@utcancun.edu.mx" required />
+                </div>
+                <div class="campos">
+                    <label>Motivo</label>
+                    <select>
+                        <option value="1">Contacto</option>
+                        <option selected>Cotizacion</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label>Telefono</label>
+                    <input type="tel" />
+                </div>
+                <div class="campos">
+                    <label>Fecha de evento</label>
+                    <input type="date" />
+                </div>
+                <div class="campos">
+                    <label>Numero de empleados</label>
+                    <input type="number" />
+                </div>
+                <div class="campos">
+                    <label>Modo de contacto</label>
+                    <input type="checkbox" class="opciones" name="modalidad"><span>whatsapp</span>
+                    <input type="checkbox" class="opciones" name="modalidad"><span>COrreo</span>
+                </div>
+                <div class="campos">
+                    <label>¿Eres cliente?</label>
+                    <input type="radio" name="es_cliente" /><span>Si</span>
+                    <input type="radio" name="es_cliente" /><span>No</span>
+                </div>
+                <div class="campos">
+                    <label>Fotografia</label>
+                    <input type="file" />
+                </div>
+                <div class="campos">
+                    <button type="sumbit">Enviar</button>
                 </div>
             </form>
         </section>
